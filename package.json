@@ -16,6 +16,10 @@
     "Webpack",
     "Watch"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anumang/node-runtime-webpack-plugin"
+  },
   "author": "anumangenc@gmail.com",
   "license": "MIT",
   "dependencies": {
