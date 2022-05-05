@@ -1,0 +1,31 @@
+{
+  "name": "node-runtime-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Webpack plugun to execute node scripts at runtime on watch mode",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "npm run test",
+    "build": "tsc",
+    "prebuild": "rimraf dist"
+  },
+  "keywords": [
+    "Webpack",
+    "Node",
+    "Script",
+    "Webpack",
+    "Watch"
+  ],
+  "author": "anumangenc@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^5.0.0"
+  },
+  "peerDependencies": {
+    "webpack": "^5.0.0"
+  },
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^4.6.3"
+  }
+}
